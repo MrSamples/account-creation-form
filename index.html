@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+  <title>Create Account</title>
+</head>
+<body>
+  <div class="banner">
+    <div class="logo">
+      <img class="img-logo" src="./img/ReedSamples_logo.svg" alt="logo">
+      <div class="logo-text">Reed</div>
+    </div>
+    <div class="source">Photo by <a href="https://unsplash.com/@caleb_smithy">Caleb Smith</a> on <a href="https://unsplash.com/photos/VcBQ3F6pBUI">Unsplash</a></div>
+  </div>
+  <div class="content">
+    <p>Not a real service. Sign up now to embark on your amazing adventure!</p>
+    <p class="hero">This is exciting!</p>
+    <form>
+      <h2>Let's do this!</h2>
+      <ul>
+        <div class="row">
+          <li>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+            <div class="required">*</div>
+          </li>
+          <li>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+            <div class="required">*</div>
+          </li>
+        </div>
+        <div class="row">
+          <li>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <div class="required">*</div>
+          </li>
+          <li>
+            <label for="number">Phone Number:</label>
+            <input type="tel" id="number" name="number">
+            <div class="required"> </div>
+          </li>
+        </div>
+        <div class="row">
+          <li>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="required">*</div>
+          </li>
+          <li>
+            <label for="cpassword">Confirm Password:</label>
+            <input type="password" id="cpassword" name="cpassword" required>
+            <div class="required">*</div>
+          </li>
+        </div>
+      </ul>
+      <button>Create Account</button>
+    </form>
+    <p class="login">Already have an account? <a href="https://github.com/MrSamples" target="_blank">Login</a></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+* {
+    font-family: "Fira Sans", Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #e8f0ff;
+}
+
+.banner {
+    position: relative;
+    width: 100vw;
+    height: 24vh;
+    background-image: url(./img/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000044;
+    color: #f8f8f0;
+    font-size: 48px;
+    height: 100px;
+}
+
+.img-logo {
+    width: 48px;
+}
+
+.logo-text {
+    font-family: Pacifico, serif;
+    margin-left: 16px;
+}
+
+.source {
+    position: absolute;
+    bottom: 1px;
+    right: 2px;
+    color: #f8f8f0;
+    font-size: .8rem;
+}
+
+.source a {
+    color: inherit;
+}
+
+.content {
+    margin: 12px 4px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 2.25rem;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.hero {
+    font-weight: bold;
+}
+
+form {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.75rem;
+    margin: 0;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+ul {
+    appearance: none;
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 48px;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin-bottom: 16px;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+input {
+    font-size: 1rem;
+    padding: 4px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #f0f0ff;
+}
+
+input:focus, input:focus-visible {
+    outline: none;
+    appearance: none;
+    border: 1px solid #177080;
+    box-shadow: 1px 1px 5px #08314988;
+}
+
+.required {
+    color: #d40000;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+}
+
+button {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #f8f8f0;
+    background-color: #177080;
+    border: 0px solid #083149;
+    border-radius: 4px;
+    padding: 12px 48px;
+    box-shadow: 2px 2px 5px #083149;
+    cursor: pointer;
+}
+
+.login {
+    font-size: 1rem;
+}
+
+.login a {
+    font-weight: bold;
+    color: #13576b;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        display: flex;
+    }
+
+    .banner {
+        width: 33vw;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .content {
+        margin-left: 4%;
+        margin-top: 12%;
+        margin-bottom: auto;
+        width: 500px;
+    }
+}
