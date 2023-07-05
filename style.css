@@ -89,6 +89,9 @@ h2 {
 }
 
 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     appearance: none;
     list-style-type: none;
     margin: 0;
@@ -100,9 +103,6 @@ li {
     position: relative;
     display: flex;
     flex-direction: column;
-}
-
-.row {
     margin-bottom: 16px;
 }
 
