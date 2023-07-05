@@ -155,6 +155,22 @@ button {
     text-decoration: none;
 }
 
+.code {
+    font-family: sans-serif;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: auto;
+    left: auto;
+    text-decoration: none;
+    color: #f8f8f0;
+    background: #13576b;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+}
+
 @media screen and (min-width: 700px) {
     body {
         display: flex;
