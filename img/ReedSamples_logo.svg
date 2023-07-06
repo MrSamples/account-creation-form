@@ -9,6 +9,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <style>@import url('https://fonts.googleapis.com/css?family=Jost:600');</style>
   <defs
      id="defs10" />
   <sodipodi:namedview
@@ -71,5 +72,5 @@
        id="tspan844"
        x="141.981"
        y="554.13855"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:388.905px;font-family:Jost;-inkscape-font-specification:'Jost Semi-Bold';stroke-width:0.972263;fill:#2d66c8;fill-opacity:1">RS</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:388.905px;font-family:Jost,'Trebuchet MS',sans-serif;-inkscape-font-specification:'Jost Semi-Bold';stroke-width:0.972263;fill:#2d66c8;fill-opacity:1">RS</tspan></text>
 </svg>
